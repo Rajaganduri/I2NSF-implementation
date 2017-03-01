@@ -22,4 +22,10 @@ This program translates the XML file and extracts necessary pieces of informatio
 
 Eg:
 
+![snortrule1](https://cloud.githubusercontent.com/assets/11450844/23486613/c98b0c8e-fea6-11e6-88b5-1306f4ea2018.PNG)
+
+**WriteInRules.java**
+
+This program writes the translated rule into exact Snort rules file which contains all the rules executed by Snort.
+Once the rule is inserted into the Snort rules file, Snort is re-executed to make sure Snort is running successfully with the new rule inserted.
 

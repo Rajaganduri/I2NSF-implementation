@@ -1,8 +1,20 @@
 # I2NSF-implementation
 
-This project is under construction. This project is mainly aimed at achieving the translation of high level user input YANG data models to NSF understandable YANG models.
-The translated data models are sent to NSF currently via Sockets.
-The Security Controller (here, Translator) and the NSF run in separate VMs. Hence, while deploying in your local environment you need to modify the ip addresses to establish Socket communication among those two VMs.
-As the project is still under construction, this project is being modified to suit to I2NSF's framework and guidelines.
+This project is a prototype implementation of I2NSF framework described by I2NSF IETF WG (https://datatracker.ietf.org/wg/i2nsf/charter/). Current implementations of I2NSF can be found in I2NSF Wiki page (https://trac.ietf.org/trac/i2nsf).
+
+For this project implementation,
+Both the controller and NSF nodes are configured in a virtualized environment in two separate VMs.
+
+Software Requirements
+•	Ubuntu 14.04 or higher
+•	Eclipse or any IDE for processing and compiling JAVA
+•	MySQL 
+•	Apache or any web Server 
+•	Snort IDS
+•	ConfD
+
+Architecture of the project 
+
+![i2nsfframework](https://cloud.githubusercontent.com/assets/11450844/23480614/2d91f242-fe8e-11e6-9a81-fc2537c1fb6e.PNG)
 
 Any suggestions can be directed to Rajasekhar Ganduri, Rajasekhar.Ganduri@huawei.com

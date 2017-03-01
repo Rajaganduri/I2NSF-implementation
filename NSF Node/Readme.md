@@ -18,3 +18,8 @@ This file contains the code to accept incoming connection from the Controller. O
 
 This program translates the XML file and extracts necessary pieces of information (as shown in the figure below) required to construct Snort rule. Due to the limited information provided by the consumer of I2NSF framework, more importance is given in constructing Snort rule header and some mandatory rule options like “msg”, “sid”.  The figures below give more detailed view of Snort rule header with an example.
 
+![snort rule](https://cloud.githubusercontent.com/assets/11450844/23486486/08f6655e-fea6-11e6-8b65-0a85b1df24fc.PNG)
+
+Eg:
+
+

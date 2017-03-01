@@ -15,11 +15,15 @@ https://www.digitalocean.com/community/tutorials/how-to-use-open-monitoring-dist
 **•	Apache Web Server**
 
 >You can install and configure following the steps in this link https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
->In the above page at the command: $sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+>In the above page at the command: 
+``$sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql``
 Use command: 
 ``
 $sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt php5-mysql
-Use (when needed): $ sudo /etc/init.d/apache2 restart
+``
+Use (when needed):
+``
+$ sudo /etc/init.d/apache2 restart
 ``
 
 **•	PYANG**

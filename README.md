@@ -6,6 +6,7 @@ For this project implementation,
 Both the controller and NSF nodes are configured in a virtualized environment in two separate VMs.
 
 Software Requirements
+
 •	Ubuntu 14.04 or higher
 •	Eclipse or any IDE for processing and compiling JAVA
 •	MySQL 

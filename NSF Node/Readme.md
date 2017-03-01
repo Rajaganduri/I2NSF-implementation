@@ -14,7 +14,7 @@ Entire code is written in java using Eclipse IDE, hence the file paths mentioned
 
 This file contains the code to accept incoming connection from the Controller. Once the NSF receives the XML file from Controller, it reads the contents and prints to the user.
 
-**TranslateXML2IDSRule.java **
+**TranslateXML2IDSRule.java**
 
 This program translates the XML file and extracts necessary pieces of information (as shown in the figure below) required to construct Snort rule. Due to the limited information provided by the consumer of I2NSF framework, more importance is given in constructing Snort rule header and some mandatory rule options like “msg”, “sid”.  The figures below give more detailed view of Snort rule header with an example.
 

@@ -1,4 +1,4 @@
-**Controller Node**
+**#Controller Node**
 >Contains the code for the GUI taken from https://github.com/kimjinyong/i2nsf-framework/
 
 Requirements to setup GUI
@@ -44,7 +44,7 @@ $sudo python setup.py install
 >If you are new to PYANG, more information can be found at https://github.com/mbj4668/pyang/wiki/Tutorial
 >PYANG is useful in this project primarily for validating XML, building UML diagrams from YANG model. But this procedure for validating XML and building UML diagrams is automated in my code (ExecComnd.java).
 
-**Code**
+**##Code**
 
 >In the Code folder,
 >Entire code is written in java using Eclipse IDE, hence the file paths mentioned in the respective programs will be according to Eclipse’s workspace file structure.
